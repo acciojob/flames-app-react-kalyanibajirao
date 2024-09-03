@@ -46,6 +46,7 @@ const App = () => {
     <div>
       <input
         data-testid="input1"
+        name="name1"
         type="text"
         value={name1}
         onChange={(e) => setName1(e.target.value)}
@@ -53,6 +54,7 @@ const App = () => {
       />
       <input
         data-testid="input2"
+        name="name2"
         type="text"
         value={name2}
         onChange={(e) => setName2(e.target.value)}
